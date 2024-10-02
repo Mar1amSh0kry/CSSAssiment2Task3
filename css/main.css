@@ -1,0 +1,44 @@
+.main {
+    position: relative;
+    background-color: darkgrey;
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    border-left: blue solid;
+    border-right: blue solid;
+    border-top: red solid;
+    border-bottom: red solid;
+}
+
+.top-left,
+.bottom-left,
+.top-right,
+.bottom-right {
+    color: white;
+    position: absolute;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+
+}
+
+.top-left {
+    left: -5px;
+    bottom: 80px;
+}
+
+.bottom-left {
+    left: -5px;
+    top: 80px;
+}
+
+.top-right {
+    right: -5px;
+    bottom: 80px;
+}
+
+.bottom-right {
+    right: -5px;
+    top: 80px;
+}
